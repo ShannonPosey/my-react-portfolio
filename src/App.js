@@ -1,10 +1,11 @@
 import React from "react";
+import './App.css';
 import Nav from "./Components/Nav";
 import Hero from "./Components/Hero";
-// import About from "./Components/About";
+import About from "./Components/About";
 // import Projects from "./Components/Projects";
-// import Contact from "./Components/Contact";
-// import Footer from "./Components/Footer";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
     <div className="App">
       <Nav />
       <Hero />
-      {/* <About /> */}
+      <About />
       {/* <Projects /> */}
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }

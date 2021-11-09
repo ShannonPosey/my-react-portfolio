@@ -1,2 +1,11 @@
 import React from "react";
-import hero-bg from "../img/hero-bg.png";
+
+function Hero() {
+    return(
+        <div className=" tc bg-light-green">
+            <h1>Shannon Posey</h1>
+        </div>
+    )
+};
+
+export default Hero;

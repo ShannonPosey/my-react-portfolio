@@ -1,9 +1,10 @@
 import React from "react";
-import
-import avataaar from "../img/avataaars.png";
+import avataaars from "../img/avataaars.png";
 
-function About() {
-    return (
+// function About() {
+//     return (
+        
+//     )
+// };
 
-    )
-}
+// export default About;

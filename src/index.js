@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './App.css';
+// import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import "tachyons";
+// import "tachyons";
 
 ReactDOM.render(
   <React.StrictMode>

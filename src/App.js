@@ -6,11 +6,16 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import './App.css';
 
+// import GlobalStyle from "./Components/GlobalStyle";
+
+// import "./style.css";
 
 function App() {
   return (
     <div className="App">
+      {/* <GlobalStyle/> */}
       <Nav />
       <Hero />
       <About />

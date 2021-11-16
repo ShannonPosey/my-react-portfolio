@@ -1,17 +1,31 @@
 import React from "react";
+import styled from "styled-components";
 
 function Nav() {
     return(
-        <div className="bg-light-green ">
+        <StyledNav>
+        <div className="">
             <nav>
-                <ul className="dib nest-list-rest ul">
-                    <li><a href="#about" className="no-underline ttn-l">About Me</a></li>
-                    <li><a href="#projects" className="no-underline">Projects</a></li>
-                    <li><a href="#contact" className="no-underline">Contact Me</a></li>
+                <ul className="">
+                    <li><a href="#about" className="about">About Me</a></li>
+                    <li><a href="#projects" className="projects">Projects</a></li>
+                    <li><a href="#contact" className="contact">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
+     </StyledNav>
     )
 };
+
+const StyledNav = styled.section `
+    ul, li, a {
+        text-decoration: none;
+        padding-right: 25px;
+         display: flex;
+        justify-content: center;
+        align-item: center;
+        color: black;
+   }
+`
 
 export default Nav;

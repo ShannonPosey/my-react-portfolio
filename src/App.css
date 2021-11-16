@@ -1,4 +1,17 @@
-body {
-    color: light-green;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: light-green;
 }
 
+
+
+
+/* @media $ {
+    device.laptop
+}
+
+    {
+    .
+} */

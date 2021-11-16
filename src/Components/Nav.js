@@ -5,7 +5,7 @@ function Nav() {
     return(
         <StyledNav>
         <div className="">
-            <nav>
+            <nav className="nav-link">
                 <ul className="">
                     <li><a href="#about" className="about">About Me</a></li>
                     <li><a href="#projects" className="projects">Projects</a></li>
@@ -18,13 +18,21 @@ function Nav() {
 };
 
 const StyledNav = styled.section `
+background: black;
+.nav-link {
+    border: 2px solid transparent;
+}
+
+.nav-link:hover {   
+    text-decoration: none;
+    border-bottom: 2px solid #fa0075;
+}
     ul, li, a {
         text-decoration: none;
-        padding-right: 25px;
-         display: flex;
+           display: flex;
         justify-content: center;
         align-item: center;
-        color: black;
+        color: #ffffff;
    }
 `
 

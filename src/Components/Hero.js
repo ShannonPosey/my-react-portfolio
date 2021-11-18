@@ -19,10 +19,14 @@ const StyledHero = styled.section `
     
     .header {
         height: 700px;
+        margin-top: auto;
     }
 
     h1 {
         color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        padding: 5px 0 45px;
     }
     
     span {
